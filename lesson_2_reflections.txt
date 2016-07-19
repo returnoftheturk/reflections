@@ -26,3 +26,9 @@ your history organized? How would branches help?
 Branches would be helpful in keeping your history organized when you would like to have a base case,
 and try out what would happen if you made a change in this direction, and a change in that direction,
 but not at the same time.  For example adding different versions of a website but not together.  
+
+	How do the diagrams help you visualize the branch structure?
+
+The diagrams help you visualize branch structure because it lets you see the branches drawn as branches rather
+than numbers on a screen with no connections.  The branches allow you to see each parent branch and 
+which branches are reachable and which ones are not.
