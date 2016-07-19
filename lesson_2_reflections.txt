@@ -12,3 +12,17 @@ the staging area is stage 2 of creating commit, while working directory is 1 and
 inside the staging area comes from the working directory, and is later on pushed to the repository.
 
 It offers the value that you get to chose which items to commit together.
+
+	How can you use the staging area to make sure you have one commit per logical change?
+
+You can use git diff --staged to see the difference between the repository and the staging area, 
+and if it is one logical change, you can commit.  Or before you add your file to the staging area, you 
+can use git diff to compare between the working directory and the old staging area to make sure you only 
+made one logical change.  You would then add to the staging area and then commit.
+
+	What are some situations when branches would be helpful in keeping 
+your history organized? How would branches help?
+
+Branches would be helpful in keeping your history organized when you would like to have a base case,
+and try out what would happen if you made a change in this direction, and a change in that direction,
+but not at the same time.  For example adding different versions of a website but not together.  
