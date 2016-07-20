@@ -36,3 +36,12 @@ without having to go back online.
 You could collaborate without using Git or Github by editing the code on a shared document like google docs.
 Or you could all work separately then have someone browse through the code and look at all the changes and 
 save it as a single file.  A lot of work. 
+
+	When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+	You would want to make changes in a separate branch rather than directly in master when you are not 
+exaclty sure of the concequences of the changes you make will entail, and you do not want to mess up any code.
+Then, when you make it in another branch, you can screw up as much as you would like without any fears of messing up
+the original master path.  This approach gives u more risk taking ability, but it is much more difficult to 
+collaborate with others.  YOu need to pull and push and pull and be very careful which for beginners is extremely difficult.
