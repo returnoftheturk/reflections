@@ -24,3 +24,9 @@ locally.
 You branch when you are working on a code and you go off in different directions by trying to add new features.  
 Kind of similar to fork but not really.  Fork changes ownership of the file(kinda), while branching it is still the same 
 people working on the code.  
+
+	What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It is beneficial to have a copy of the last known state of the remote stored locally because then you can compare your
+files with the last known state using the diff function to see what changes you have made.  You can use the file offline 
+without having to go back online.
