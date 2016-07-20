@@ -4,3 +4,10 @@ You would want to use a remote repository rather than keeping all of your work l
 you would like have multiple people working on a project and you would like to share code with each other.
 Keeping your work local means your stuff will not be stolen, but it also means you cannot share 
 ideas with other peoople who might help your project out a ton. 
+
+	Why might you want to always pull changes manually rather than having Git automatically
+ stay up-to-date with your remote repository?
+
+You might want to always pull changes manually rather than have git automatically stay up to 
+date with your remote repository because just like commit, only you know when you have made a full logical 
+change to your repository.  There is no need to have git pull changes when the changes are still not significant. 
