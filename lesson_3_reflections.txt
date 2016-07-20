@@ -11,3 +11,16 @@ ideas with other peoople who might help your project out a ton.
 You might want to always pull changes manually rather than have git automatically stay up to 
 date with your remote repository because just like commit, only you know when you have made a full logical 
 change to your repository.  There is no need to have git pull changes when the changes are still not significant. 
+
+	Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+You would use a fork when you want to change the project of someone, but they want it to stay the same, or they 
+do not want to work together with you, so you get their permission and go off in another direction while
+also giving them credit by forking rather than cloning.  
+
+You could clone when you want to steal someoens work.  Or you can clone to get code onto your computer and work just 
+locally.
+
+You branch when you are working on a code and you go off in different directions by trying to add new features.  
+Kind of similar to fork but not really.  Fork changes ownership of the file(kinda), while branching it is still the same 
+people working on the code.  
