@@ -30,3 +30,9 @@ people working on the code.
 It is beneficial to have a copy of the last known state of the remote stored locally because then you can compare your
 files with the last known state using the diff function to see what changes you have made.  You can use the file offline 
 without having to go back online.
+
+	How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+You could collaborate without using Git or Github by editing the code on a shared document like google docs.
+Or you could all work separately then have someone browse through the code and look at all the changes and 
+save it as a single file.  A lot of work. 
