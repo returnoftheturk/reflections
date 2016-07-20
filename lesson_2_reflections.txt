@@ -39,3 +39,10 @@ When you merge two branches together, you take bits and pieces from both branche
 functions from both branches.  For example, if you added a function on one branch and another on another, the head
 you merge them to will have both of the merges.  We represent it in the diagram the way we do because the merged 
 commit will have parents to both branches, therefore it is connected to both branches.  
+
+	What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Gits automatic merging is much faster and less troublesome to use.  When it does not detect a conflict, the code
+works perfectly well.  However, this is not always the case, as there are some instances when conflicts occur.  In this case u 
+must merge manually, which might be better because only the developer really knows what the code is meant for, while git 
+tries to take educated guesses.
